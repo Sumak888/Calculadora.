@@ -94,4 +94,4 @@ int pedirNumero(String mensaje) {
         }
     }
     return numero;
-}
+}// Cambio para modulo de resta 
