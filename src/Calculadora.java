@@ -96,3 +96,4 @@ int pedirNumero(String mensaje) {
     return numero;
 }// Cambio para modulo de resta 
 // Cambio para modulo de multiplicacion 
+// Cambio para modulo de division con validacion 
