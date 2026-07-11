@@ -6,7 +6,7 @@ void main() {
 
     String opcion = "";
 
-    while (!Objects.equals(opcion, "0")) { 
+    while (!Objects.equals(opcion, "0")) { //Otra forma de establecer un bucle es con do/while. La diferencia recae en que while evalúa la condición antes de ejecutar el bloque de código, mientars que do/while ejecuta el bloque de código antes de evaluar la condición.
         IO.println("\n--- MENÚ CALCULADORA ---");
         IO.println("1. Suma\n2. Resta\n3. Multiplicación\n4. División\n0. Salir");
 
