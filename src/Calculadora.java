@@ -6,11 +6,11 @@ void main() {
 
     String opcion = "";
 
-    while (!Objects.equals(opcion, "0")) {
+    while (!Objects.equals(opcion, "0")) { 
         IO.println("\n--- MENÚ CALCULADORA ---");
         IO.println("1. Suma\n2. Resta\n3. Multiplicación\n4. División\n0. Salir");
 
-        opcion = IO.readln("Ingrese su opción: ");
+        opcion = IO.readln("Ingrese su opción: "); //Otra forma de imprimir texto es con System.out.println("");
 
         if (Objects.equals(opcion, "0")) {
             IO.println("¡Gracias por usar la calculadora! Saliendo...");
